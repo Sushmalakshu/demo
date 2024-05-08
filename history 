@@ -1,0 +1,249 @@
+ 1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  cd
+   44  sudo apt update -y
+   45  sudo apt install mysql-server
+   46  sudo systemctl status mysql.service 
+   47  sudo mysql
+   48  sudo mysql_secure_installation
+   49  sudo mysql
+   50  sudo mysql_secure_installation
+   51  sudo mysql -u root -p
+   52  sudo snap install mysql-workbench-community
+   53  man tail
+   54  man 
+   55  man tail
+   56  man 
+   man man
+    man
+59  man tail
+   60  tail state.txt capital.txt
+   61  man
+   62  ls
+   63  cd
+   64  pwd
+   65  mkdir
+   66  rmdir
+   67  mv
+   68  cp
+   69  open
+   70  touch
+   71  man tail
+   72  man 
+   73  man tail
+   74  man wc
+   75  man grep
+   76  nano state.txt
+   77  cd Desktop
+   78  nano state.txt
+   79  tail -n 10 state.txt
+   80  tail -3 state.txt
+   81  wc state.txt
+   82  grep "pattern" state.txt
+   83  grep state.txt
+   84  cat state.txt
+   85  cd Desktop
+   86  cat filename.txt
+87  cat > filename.txt
+   88  cd Desktop
+   89  cat > state.txt
+   90  cd Desktop
+   91  tail -10 state.txt
+   92  cd Desktop
+   93  cd state
+   94  cd Desktop
+   95  nano state.txt
+   96  tail -10 state.txt
+   97  cd Desktop
+   98  cat > states.txt
+   99  tail states.txt
+  100  mkdir /Desktop/F1
+  101  mkdir `/F1
+  102  cd Desktop
+  103  cat > states.txt
+  104  tail states.txt
+  105  tail -3 states.txt
+  106  wc states.txt
+  107  cd Desktop
+  108  ls
+  109  mkdir F1
+  110  cat >> first.txt
+  111  cat>>second.txt
+112  cat>.third.txt
+  113  ls
+  114  cat>>third.txt
+  115  ls
+  116  cd -F F1 -/Downlods
+  117  cd -F F1 -/Downloads
+  118  cd -F F1 ~/Downloads
+  119  cd ~
+  120  cd Downloads
+  121  ls
+  122  cd F1
+  123  man
+  124  ls
+  125  mkdir sush
+  126  man
+  127  ls
+  128  mkdir sush
+  129  cd sush
+  130  pwd
+  131  cat >> example.txt
+  132  open example
+  133  open.
+  134  history
+  135  tail states.txt
+  136  cat states.txt
+  137  gzip example
+  138  cd ~
+ 139  cd Desktop
+  140  mkdir F1
+  141  cd desktop
+  142  cd..
+  143  cd Desktop
+  144  ls
+  145  mkdir F1
+  146  cd F1
+  147  cat>>first.txt
+  148  cat>>second.txt
+  149  cat>>third.txt
+  150  ls
+  151  cd .
+  152  pwd
+  153  cp -F F1 ~/Downloads
+  154  cp -r F1 ~/Downloads
+  155  cd..
+  156  cd ..
+  157  cp -r F1 ~/Downloads
+  158  cd ~
+  159  cd Downloads
+  160  ls
+  161  cd F1
+  162  ls
+  163  gzip first
+  164  cat first second > third
+  165  tail -10 states
+  166  cat >> states.txt
+  167  cd ..
+169  cd Desktop
+  170  cat states
+  171  sudo apt install net-tools
+  172  sudo ifconfig
+  173  sudo apt install net tools
+  174  sudo apt update
+  175  sudo apt install sudo
+  176  sudo ifconfig
+  177  ifconfig
+  178  man config
+  179  route -n
+  180  sudo apt install net-tools
+  181  route -n
+  182  netstat -r
+  183  netstat -rn
+  184  hostname -I
+  185  cd ..
+  186  cd Downloads
+  187  cd F1
+  188  ls -l first.txt
+  189  sudo su
+  190  cd ..
+  191  cd Desktop
+  192  ls
+  193  ls -l states.txt
+  194  sudo nano states.txt
+  195  sudo apt -get update
+  196  sudo apt-get update 
+  197  sudo apt-get upgrad
+  198  git init
+  199  cd /home
+  200  cd rps
+  201  git add .
+  202  git add.
+  203  git commit
+  204  git init
+  205  git add .
+  206  cd /home
+  207  cd rps
+  208  cd /home
+  209  ls
+  210  cd rps
+  211  git init
+  212  git add .
+  213  git config ---gllllobal user.sushma1462000@gmail.com
+  214  git config --global user.sushma
+  215  git commit -mmmmmm "commit"
+  216  git commit -m "commit"
+  217  cd ~
+  218  ls
+  219  mkdir projects
+  220  ls
+  221  cd projects
+  222  nano task.c
+  223  ls
+  224  nano task.c
+  225  ls
+  226  git init
+227  git add .
+  228  git commit -m "commit"
+  229  git config
+  230  git commit -m "commit"
+  231  mkdir Gitproject
+  232  ls
+  233  cd Gitproject
+  234  vi hello.txt
+  235  ls
+  236  git init
+  237  git commit -m "commit"
+  238  git config --global user.sushma
+  239  git config --global user.sushma1462000@gmail.com
+  240  git commit -m "commit"
+  241  git add .
+  242  git commit -m "commit"
+  243  git init
+  244  git add.
+  245  git add .
+  246  git commit -m "commit"
+  247  git add .
+  248  git commit -m "commit"
+  249  history
+
